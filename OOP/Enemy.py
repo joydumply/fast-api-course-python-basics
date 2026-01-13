@@ -3,6 +3,11 @@ class Enemy:
 	hp: int = 10
 	ad: int = 1
 
+	def __init__(self, type_of_enemy, hp = 10, ad = 1):
+		self.type_of_enemy = type_of_enemy
+		self.hp = hp
+		self.ad = ad
+
 	def talk (self):
 		print(f"I am a {self.type_of_enemy}. Be prepared to fight!")
 	

@@ -1,7 +1,6 @@
 from Enemy import * 
 
-zombie = Enemy()
-zombie.type_of_enemy = 'Zombie'
+zombie = Enemy('Zombie', hp = 15, ad = 3) # made a stronger zombie
 
 zombie.talk()
 zombie.walk_forward()
