@@ -1,0 +1,87 @@
+# Python
+# Исключения для виртуальных окружений, байт-кода и временных файлов
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+python-eggs/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+develop-eggs/
+downloads/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Виртуальные окружения
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Тесты и отчёты покрытия
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Mypy, pip, setuptools
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# IDE / редакторы
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS временные
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Домашние файлы конфигурации
+.env.local
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints
+
+# C extensions
+*.so
+
+# PyInstaller
+#  Обычно PyInstaller собирает временные файлы в build/
+#  и создает папки dist/ и *.spec
+
+# setuptools
+*.egg-info/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Личные файлы
+*.sqlite3
+
+# Node modules (если есть frontend)
+node_modules/
+
+# Резерв: локальные ключи и сертификаты
+*.pem
+*.key
+
+# End of .gitignore
