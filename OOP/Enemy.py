@@ -20,3 +20,6 @@ class Enemy:
 	def get_type_of_enemy(self):
 		return self.__type_of_enemy
 	
+	def print_info(self):
+		print(f'Type: {self.__type_of_enemy}\nHP: {self.hp}\nAD: {self.ad}\n')
+	
