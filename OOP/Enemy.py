@@ -22,4 +22,9 @@ class Enemy:
 	
 	def print_info(self):
 		print(f'Type: {self.__type_of_enemy}\nHP: {self.hp}\nAD: {self.ad}\n')
+
+	def special_attack(self):
+		print("This unit has no special attack")
 	
+	def print_hp_left(self):
+		print(f'{self.__type_of_enemy} has {self.hp} HP left!')
